@@ -34,12 +34,23 @@ li a {
     text-decoration: none;
 }
 
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+nav li:hover {
+    background-color: #eee;
+    border-radius: 4px;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     border-top: 2px solid #eee;
-    border-bottom: 2px solid #eee;
+    border-bottom: 4px double #eee;
     padding: 10px;
 }
 
